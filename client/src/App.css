@@ -1,0 +1,95 @@
+.App {
+  font-family:Avenir, "Century Gothic", sans-serif;
+  font-weight:100; 
+  font-style:normal;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  justify-content: center;
+  background-color: #140910;
+  padding:20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.header{
+  width: 100%;
+  color:white;
+  text-align: center;
+}
+
+
+.ReadPosts {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #c3195d;
+  color:white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #ffffff;
+}
+
+body {
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 10px;
+}
+
+.header h1 {
+  color: white;
+  margin: 0;
+}
+
+.headerBtn {
+  display: flex;
+  gap: 1px;
+}
+
+.header {
+  background-color: #680747; /* Set the background color of the header */
+  color: white; /* Set text color */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space content evenly horizontally */
+  align-items: center; /* Center content vertically */
+  padding: 10px 20px; /* Add padding */
+  top: 0; /* Position at the top of the screen */
+  width: 100%; /* Take up full width of the screen */
+  z-index: 999; /* Ensure the header is on top of other content */
+}
+
+
+.header h1 {
+  margin: 0; /* Remove default margin */
+}
+
+.headerBtn {
+  background-color: #c3195d; /* Set button background color */
+  border: none; /* Remove button border */
+  color: white; /* Set button text color */
+  padding: 10px 20px; /* Add padding */
+  cursor: pointer; /* Set cursor to pointer on hover */
+}
+
+.headerBtn:hover {
+  background-color: #f70776; /* Change button background color on hover */
+}

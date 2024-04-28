@@ -1,0 +1,48 @@
+.Card {
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(153, 153, 153, 0.497);
+    border-radius: 20px;
+    padding: 20px; /* Adjust padding */
+    margin-bottom: 25px;
+    width: 600px; /* Make the card wider */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange elements vertically */
+}
+
+.title {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px; /* Add margin at the bottom */
+}
+
+.author {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px; /* Add margin at the bottom */
+}
+
+.description {
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 10px; /* Add margin at the bottom */
+    font-size: 15px;
+}
+
+.created_at {
+    color: white;
+    font-size: 14px;
+    align-self: flex-start; /* Align to the top left */
+}
+
+.upvotes {
+    color: white;
+    font-size: 14px;
+    align-self: flex-start; /* Align to the bottom left */
+}
+
+.moreButton {
+    width: 30px;
+    cursor: pointer;
+    align-self: flex-end; /* Align to the bottom left */
+}

@@ -1,0 +1,120 @@
+.ViewPost {
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(153, 153, 153, 0.497);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postImage {
+    max-width: 1000px; /* Adjust the maximum width as needed */
+    max-height: 1000px; /* Adjust the maximum height as needed */
+    display: block; /* Ensures the image is displayed as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+.upvotes {
+    color: white;
+    font-size: 14px;
+    align-self: flex-start; /* Align to the bottom left */
+    margin-bottom: 10px; /* Add margin at the bottom */
+}
+
+.upvoteButton {
+    border-radius: 8px;
+    border: none;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upvoteButton:hover {
+    background-color: #646cff; /* Change background color on hover */
+}
+
+.editDeleteButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: auto; /* Align to the bottom */
+}
+
+.editDeleteButtons button {
+    border-radius: 8px;
+    border: none;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.editDeleteButtons button:hover {
+    background-color: #f70776; /* Change background color on hover */
+}
+
+.postDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.upvotes {
+    padding-top: 20px;
+    margin: 0;
+}
+
+.upvoteButton {
+    border-radius: 8px;
+    border: none;
+    background-color: #c3195d;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.upvoteButton:hover {
+    background-color: #f70776; /* Change background color on hover */
+}
+
+.editDeleteButtons {
+    border: none;
+    background: none;
+    color: #f70776; /* Set the color for the edit and delete buttons */
+    cursor: pointer;
+}
+
+.editDeleteButtons:hover {
+    text-decoration: underline; /* Underline the buttons on hover */
+}
+.comment {
+    font-size: 16px; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add margin between comments */
+}
+
+.postImageContainer {
+    max-width: 1000px; /* Adjust the maximum width as needed */
+    height: 400px; /* Set a fixed height for the image container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.postImage {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    max-height: 100%; /* Ensure the image doesn't exceed the container height */
+    display: block; /* Ensures the image is displayed as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
