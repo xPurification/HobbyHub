@@ -37,7 +37,7 @@ const EditPost = () => {
     await supabase.from('Posts').update(postData).eq('id', id);
 
     // Redirect back to the post page after updating
-    window.location.href = `/post/${id}`;
+    window.location.href = `/`;
 };
 
   return (
