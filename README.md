@@ -1,3 +1,4 @@
+*Functionality may be limited due to no longer having access to database and website host*
 # Link to app: https://hobbyhub-purification.netlify.app/
 
 # Web Development Final Project - *HobbyHub*
