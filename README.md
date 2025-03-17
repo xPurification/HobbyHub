@@ -44,8 +44,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](https://github.com/COP4808-Spring2024-Full-Stack-Webdev/final-project-xPurification/blob/main/FinalProject.gif)
-
+![Video Walkthrough](FinalProject.gif)
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
